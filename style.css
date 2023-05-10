@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#search {
+    margin: 20px;
+    padding: 10px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#result {
+    margin: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.saved-movie {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
